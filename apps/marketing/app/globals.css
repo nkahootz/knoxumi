@@ -1,0 +1,21 @@
+@import "@knoxumi/ui/tokens.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--kx-color-cream);
+  color: var(--kx-color-ink);
+  font-family: var(--kx-font-sans);
+  -webkit-font-smoothing: antialiased;
+}

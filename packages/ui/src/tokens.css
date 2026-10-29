@@ -1,0 +1,12 @@
+/* Knoxumi brand tokens. Apps use these variables; never hard-code brand hex values elsewhere. */
+:root {
+  --kx-color-blue: #1764d5;
+  --kx-color-blue-deep: #03339e;
+  --kx-color-orange: #fc8d11;
+  --kx-color-orange-deep: #d35902;
+  --kx-color-cream: #f7f5ea;
+  --kx-color-ink: #090203;
+  --kx-color-white: #ffffff;
+
+  --kx-font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
