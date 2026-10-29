@@ -8,8 +8,8 @@
       "cwd": "${workspaceFolder}",
       "command": "corepack pnpm --filter @knoxumi/marketing dev",
       "serverReadyAction": {
-        "pattern": "- Local:\\s+(https?://\\S+)",
-        "uriFormat": "%s",
+        "pattern": "- Local:\\s+https?://localhost:([0-9]{2,5})",
+        "uriFormat": "http://localhost:%s",
         "action": "openExternally"
       }
     },
@@ -20,8 +20,8 @@
       "cwd": "${workspaceFolder}",
       "command": "corepack pnpm --filter @knoxumi/waiver dev",
       "serverReadyAction": {
-        "pattern": "- Local:\\s+(https?://\\S+)",
-        "uriFormat": "%s",
+        "pattern": "- Local:\\s+https?://localhost:([0-9]{2,5})",
+        "uriFormat": "http://localhost:%s",
         "action": "openExternally"
       }
     },
@@ -32,8 +32,8 @@
       "cwd": "${workspaceFolder}",
       "command": "corepack pnpm --filter @knoxumi/admin dev",
       "serverReadyAction": {
-        "pattern": "- Local:\\s+(https?://\\S+)",
-        "uriFormat": "%s",
+        "pattern": "- Local:\\s+https?://localhost:([0-9]{2,5})",
+        "uriFormat": "http://localhost:%s",
         "action": "openExternally"
       }
     }
