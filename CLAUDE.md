@@ -8,7 +8,7 @@ Multi-product SaaS platform. The first product is **Knoxumi Waiver**.
 - Build in the phase order in SPEC §18. Don't start a phase until the previous one passes its tests.
 
 ## Stack (do not substitute)
-- Turborepo + pnpm monorepo, laid out per SPEC §3.3
+- Turborepo + pnpm monorepo, laid out per SPEC §3.3 (apps: marketing, app, waiver, admin, business, kiosk)
 - Next.js (App Router, TypeScript strict), Vercel, Neon Postgres, Drizzle ORM
 - Better Auth with 3 separate realms: visitor, account user, admin
 - Stripe Billing + Stripe Tax, Resend + React Email, Cloudflare R2 (S3 SDK)
